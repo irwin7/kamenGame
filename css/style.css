@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: radial-gradient(134.42% 134.42% at 50% 0%, #4DDB9C 0%, #157354 100%);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 440px;
+}
+
+.btn{
+  width: 170px;
+  height: 170px;
+  border: none;
+  border-radius: 50%;
+  border: 20px solid transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.btn-1{
+  background-image: url("../img/sccisors.svg");
+  border-color: #a74c98;
+}
+.btn-2{
+  background-image: url("../img/hand.svg");
+  border-color: #4157BF;
+}
+.btn-3{
+  background-image: url("../img/fist.svg");
+  border-color: #AF2F2F;
+}
+
+.scores{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 3px solid rgba(255, 255, 255, 0.289199);
+  border-radius: 15px;
+  max-width: 700px;
+  padding: 18px 24px;
+  margin: 0 auto;
+  margin-bottom: 54px;
+}
+
+.score-box{
+  background: linear-gradient(0deg, #F3F3F3 0%, #FFFFFF 100%);
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 16px 47px;
+  text-align: center;
+}
+
+.score-text{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1 px;
+  color: #CF5C5C;
+}
+
+.score-count{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  color: #565468;  
+}
+
+.info{
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 64px;
+  color: #fff;
+}
